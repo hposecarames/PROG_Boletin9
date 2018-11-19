@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author menuven
+ * @author Hector Pose Carames
  */
 public class NumerosNegativos {
 
