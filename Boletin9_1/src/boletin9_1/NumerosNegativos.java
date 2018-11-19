@@ -8,7 +8,6 @@ import javax.swing.JOptionPane;
  */
 public class NumerosNegativos {
 
-    int i;
     int numero;
     int contadorP;
     int contadorN;
@@ -16,7 +15,7 @@ public class NumerosNegativos {
 
     public void datos() {
 
-        for (i = 0; i < 10; i++) {
+        for (int i = 0; i < 10; i++) {
             numero = Integer.parseInt(JOptionPane.showInputDialog("Introduce un numero: "));
             if (numero < 0) {
                 contadorN++;
